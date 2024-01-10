@@ -1,0 +1,48 @@
+.agile
+  width: 100%
+
+  &__nav-button
+    background: transparent
+    border: none
+    cursor: pointer
+    margin-top: 3vh
+
+    & path
+      color: #A7FF48
+      transition-duration: .3s
+
+    &:hover path
+      color: #FF6600
+
+  &__dot
+    margin: 3vh 1vw 0
+
+    button
+      border: 8px solid #A7FF48
+      border-radius: 100%
+      transition-duration: .3s
+
+      &:hover
+        cursor: pointer
+        border: 9px solid #FF6600
+
+    &--current
+      button
+        border: 9px solid #FF6600
+
+@media only screen and (max-width: 500px)
+  .agile__dot
+    margin: 3vh 5px 0
+
+    button
+      border: 6px solid #A7FF48
+      border-radius: 100%
+      transition-duration: .3s
+
+      &:hover
+        cursor: pointer
+        border: 10px solid #FF6600
+
+    &--current
+      button
+        border: 8px solid #FF6600

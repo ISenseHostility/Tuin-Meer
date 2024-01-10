@@ -21,3 +21,5 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+/src/assets/videos/tuinenmeer-rtl4-hq.mp4
